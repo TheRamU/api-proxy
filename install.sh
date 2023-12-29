@@ -13,7 +13,7 @@ After=network.target
 [Service]
 Restart=always
 RestartSec=5
-ExecStart=node app.js
+ExecStart=npm start
 Environment=NODE_ENV=production
 WorkingDirectory=${install_path}
 

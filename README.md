@@ -31,8 +31,8 @@
 
 - 运行
 
-  ```
-  node app.js
+  ```bash
+  npm start
   ```
 
 
