@@ -69,6 +69,15 @@
   sudo systemctl enable api-proxy
   ```
 
+  启动失败
+
+  ```bash
+  vim /etc/sysconfig/selinux
+  ```
+
+  ```
+  SELINUX=disabled
+  ```
 
 
 
